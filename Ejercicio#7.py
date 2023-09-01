@@ -1,12 +1,12 @@
 
 print("Ingrese un correo electronico: ")
 correo = input(": ")
-caracter1 = "gmail"
-remplazo1 = "ceu"
-caracter2 = ".com"
-remplazo2 = ".es"
+option_1 = "gmail"
+replace_1 = "ceu"
+option_2 = ".com"
+replace_2 = ".es"
 
-nuevocorreo = correo.replace(caracter1, remplazo1)
-nuevocorreo2 = nuevocorreo.replace(caracter2, remplazo2)
+nuevocorreo = correo.replace(option_1, replace_1)
+nuevo_correo2 = nuevocorreo.replace(option_2, replace_2)
 
-print(nuevocorreo2)
+print(nuevo_correo2)
