@@ -1,4 +1,5 @@
-precio = float(input("Ingrese el precio de un producto: "))
+print("Ingrese el precio de un producto:")
+precio = float(input(": "))
 
 euros = int(precio)
 centimos = int((precio - euros) * 100)
